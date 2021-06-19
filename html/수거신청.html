@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="style.css"
+       <meta charset="UTF-8">
+      <title><footer>    
+        <section id="bottomMenu">
+      <title>릉부릉부</title>
+      <link rel="stylesheet" href="css/structure.css">
+  <meta charset="UTF-8">
+  <title>수거신청</title>
+  <style>
+    #container {
+      width:600px;
+      margin:10px auto;
+    }
+  </style>
+  <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+  <li>
+    <center>
+      <img onclick="javascript:location.href='웹페이지.html';" src="http://gios03.github.io/Environment/이미지/로고(최종).png" alt="" width="8%"  
+      </center>
+    </li>
+  <div class="wrap">
+    <div class="intro">
+      <div class="header">
+        <div class="searchArea">
+          <form>
+           <input type="search" placeholder="search">
+           <span>검색</span>
+          </form>
+        </div>
+        <ul class="nav">
+          <li><a href="웹페이지.html">Home</a></li>
+          <li><a href="회사소개.html">About</a></li>
+          <li><a href="수거신청.html">Collection</a></li>
+          <li><a href="주문.html">Order</a></li>
+          <li><a href="로그인.html">Login</a></li>
+          <li><a href="회원가입.html">Join</a></li>
+        </ul>
+      </div>
+  <div id="container">
+    <h1>수거 신청하기</h1>
+    <form>
+      <fieldset>
+        <legend>수거신청</legend>
+        <ul id="shipping">
+          <li>  
+          <label for="user-name">이름 </label>
+            <input type="text" id="user-name" autofocus required>
+           </li>
+           <li>
+           <label for="addr">주소</label> 
+            <input type="text" id="addr" required> <small>(신청자의 주소를 입력해주세요.)</small>
+           </li>
+           <li> 
+           <label for="mail">이메일</label>
+            <input type="email" id="mail">
+           </li>
+           <li>
+            <label for="phone">연락처</label>
+            <input type="tel" id="phone" placeholder="하이픈 빼고 입력해 주세요."required>
+           </li>
+           <li>
+            <label for="d-day">배송일 지정</label>
+            <input type="date" id="d-day"> <small>(정확히 배송 가능한 날짜 기입))</small>        
+           </li>
+          </ul>  
+      </fieldset>
+      <div>
+        <a href="신청확인.html"><input type="button" value="신청하기"></a>
+        <a href="웹페이지.html"><input type="button" value="취소하기"></a> 
+      </div>        
+    </form>
+  </div>
+</body>
+</html>
